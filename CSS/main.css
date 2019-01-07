@@ -1,0 +1,391 @@
+body {
+    width: 100%;
+}
+
+.main-wrapper{
+    margin: 0 auto;
+    width: 84%;
+}
+
+a {
+    text-decoration: none;
+}
+
+body{
+    background-color: #282828;
+}
+
+header nav {
+   height: 180px;
+   background-color: #ccc;
+   
+}
+
+header nav ul {
+   float: left;
+   margin: 35px 0px 0px 55px;
+}
+
+header nav ul li{
+   float: left;
+   list-style: none;
+}
+@media only screen and (max-width: 835px) {
+    
+    header nav {
+        height: 300px;
+        background-color: #ccc;
+    }
+}
+header .nav-login{
+    float:right;
+    padding: 0% 12% 0% 0%;
+    display:flex;
+    flex-direction: column;
+}
+
+header .nav-login form{
+    float:left;
+}
+
+header .nav-login form input{
+    float: left;
+    width: 150px;
+    height: 30px;
+    margin-right: 10px;
+    border: none;
+    background-color: #fff;
+    font-family: arial;
+    font-size : 14px;
+    line-height: 30px;
+}
+
+.create{
+    padding: 25% 0% 0% 0%;
+}
+
+header .nav-login form input:hover{
+    background-color: #1385e6;
+}
+
+.flex_content{
+    align-content: center;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.flex_content h2{
+    text-align: center;
+    color: #0D5C9F;
+}
+
+.flex_content .column1{
+    float: right;
+    height: 80%;
+    width: 200px;
+    background-color: #ccc;
+    border: 5px solid #84693C;
+    border-radius: 10px;
+    margin-top: 31px;
+    margin-left: 40px;
+}
+
+.flex_content .column2{
+    width: 82%;
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 5px;
+}
+
+@media only screen and (min-width: 1000px) {
+    .flex_content .column3{
+        min-height: 368px;
+        height: 100%;
+        width: 210px;
+        background-color: #ccc;
+        border: 5px solid #84693C;
+        border-radius: 10px;
+        margin-top: 31px;
+        margin-right: 50px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .flex_content .column3{
+        visibility: hidden;
+    }
+}
+
+.column1 div{
+    margin-top: 10px;
+    margin-left: 7px;
+    height: 24%;
+    width: 90%;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+.column2 div{
+    height: 15%;
+    width: 55%;
+    margin: 15% 25% 25% 25%;
+    text-align: center;
+    background-color: #ccc;
+    border: 5px solid #84693C;
+    border-radius: 10px;
+}
+
+.column3 div{
+    margin-top: 10px;
+    margin-left: 7px;
+    min-height: 290px;
+    height: 24%;
+    width: 90%;
+    border: 2px solid grey;
+    border-radius: 10px;
+    text-align: center;
+}
+
+form .search{
+    width: 65%
+}
+
+form input{
+    margin-top: 6px;
+    margin-left: 6px;
+}
+
+form .searchButton{
+    height: 27px;
+    width: 25%;
+    padding: 0 5px 0 0
+}
+
+form h3{
+    margin-left: 5px;
+}
+
+.flex_content figure img {
+    margin: auto;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 90%;
+}
+
+figure {
+    max-width: 13em;
+    max-height: 23.5em;
+    flex-grow: 1;
+    margin-top: 2em;
+    margin-right: 1em;
+    text-align: left;
+    background-color: #ccc;
+    border: 5px solid #84693C;
+    border-radius: 10px;
+}
+
+figcaption {
+  font: average sans;
+  font-size: 90%;
+  padding-top: 1%;
+  padding-left: 21px;
+}
+
+figcaption input{
+    margin-right: 10%;
+}
+
+.cardName {
+    font-weight: bold;
+    font-size: 1em;
+    color: #0D5C9F;
+}
+
+figcaption .addCart{
+    display: flex;
+    width: 60%;
+}
+
+figcaption .amount{
+    width: 40%;
+}
+
+.login {
+    height:30%;
+    width: 35%;
+    margin: 5% 25% 25% 32%;
+    background-color: #ccc;
+    border: 5px solid #84693C;
+    border-radius: 10px;
+}
+
+.login .choose{
+    padding: 15% 0% 0% 35%;
+}
+
+.login .info{
+    padding: 5% 0% 0% 33%; 
+    text-align: left; 
+}
+
+.login .success{
+    padding: 14% 0% 0% 23%;
+}
+
+.login_success{
+    height:45%;
+    width: 35%;
+    margin: 5% 25% 45% 32%;
+    text-align: center;
+    background-color: #ccc;
+    border: 5px solid #84693C;
+    border-radius: 10px;
+}
+
+.cart{
+    overflow: auto;
+    max-height: 900px;
+    height:70%;
+    width: 45%;
+    margin: 3% 25% 3% 27%;
+    text-align: center;
+    background-color: #ccc;
+    border: 5px solid #84693C;
+    border-radius: 10px; 
+}
+
+.empty_cart {
+    height: 10%;
+    width: 35%;
+    margin: 10% 25% 30% 32%;
+    text-align: center;
+    background-color: #ccc;
+    border: 5px solid #84693C;
+    border-radius: 10px; 
+}
+
+table {
+  margin-top: 3em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3em;
+}
+
+#table_title {
+  padding: 0% 0% 5% 8%; 
+  color: #0D5C9F;
+  font-size: 1.5em;
+  padding-bottom: 5%;
+}
+
+#table_title2 {
+  padding: 2% 0% 1% 0%; 
+  color: #0D5C9F;
+  font-size: 1.25em;
+  padding-bottom: 5%;
+}
+
+table, td, .table_head {
+  border-bottom: solid 1px black;
+  width: 80%
+}
+
+th {
+  padding: 0em 1em 0em 1em;
+}
+
+.table_data {
+  padding: 1em 1em 1em 1em;
+}
+
+.table_data img{
+    margin: auto;
+    padding-left: 5px;
+    padding-top: 5px;
+    width: 35%;
+}
+
+td {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+tfoot {
+  font-weight: bold;
+}
+
+.back{
+    padding: 0% 0% 5% 0%;
+}
+
+.shipping{
+    height:45%;
+    width: 35%;
+    margin: 5% 25% 25% 32%;
+    background-color: #ccc;
+    border: 5px solid #84693C;
+    border-radius: 10px;
+}
+
+.shipping h2{
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+label {
+  font-size: .8em;
+}
+
+fieldset {
+  border: none;
+}
+
+figure input[type='submit']{
+  margin-left: auto; 
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  margin-top: 2em;
+  font-size: .9em;
+  background-color: #ccc;
+}
+
+.cust_info_form {
+  margin-left: 25%;
+  font-size: 1.25em;
+}
+
+.cust_info_form label {
+  display: inline-block;
+  width: 10em;
+  margin-top: 1em;
+}
+
+.cust_info_form input[type='submit'] {
+  width: 30%;
+  margin-top: 2em;
+  margin-left: 15%;
+}
+
+.confirm_notice {
+    height:45%;
+    width: 35%;
+    margin: 5% 25% 25% 32%;
+    text-align: center;
+    background-color: #ccc;
+    border: 5px solid #84693C;
+    border-radius: 10px;
+}
+
+.confirm_notice .confirm{
+    padding-top: 5%;
+    padding-bottom: 10%;
+        
+}
+
+
